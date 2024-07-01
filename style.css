@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    background-color: white;
+    color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+
+}
+
+/* Main navbar Open */
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightgray;
+    width: 100vw;
+    height: 5vh;
+    box-shadow: 0.1rem 0.05rem 0.9rem gray;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+
+
+}
+
+span {
+    color: rgb(103, 197, 235);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: center;
+    padding: 5rem;
+
+}
+
+.Navbar ul {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.Navbar ul li,
+a {
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    background-color: transparent !important;
+    color: black;
+    font-size: large;
+    font-weight: 500;
+
+}
+
+.sociallinks {
+    display: flex;
+    flex-direction: row;
+    width: 10vw;
+    justify-content: space-around;
+}
+
+/* Main Navbar Close  */
+
+
+
+/* EXTRA NAVBAR OPEN */
+.ExtraNav {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 5vh;
+    box-shadow: 0.1rem 0.05rem 0.9rem gray;
+    display: none;
+
+}
+
+.ExtraNavBtn {
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+    margin-right: 5px;
+
+}
+
+
+
+
+/* Side Navbar Open */
+
+.sidebar {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    transform: translate(-110%);
+    transition: all 2s ease-in-out;
+
+
+}
+
+.SideNavbar {
+    display: flex;
+    flex-direction: column;
+    /* border: red solid 2px; */
+    height: 50vh;
+    width: 20vw;
+    justify-content: safe;
+    text-align: left;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.sidebarLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    background-color: lightgray;
+    box-shadow: 0.1rem 0.05rem 0.9rem gray;
+}
+
+.sidebaroff {
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+    margin-right: 5px;
+
+}
+
+.SideNavbar ul {
+    list-style: none;
+}
+
+hr {
+    background: linear-gradient(red, yellow, orange);
+    width: 20vw;
+    height: 0.5vh;
+    /* height: 10vh; */
+}
+
+.sidebarSocialLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    margin-bottom: 60px;
+    margin-left: 20px;
+
+}
